@@ -3,7 +3,7 @@
 train.py arg - запуск обучения моделей
 arg - номера моделей через запятую
 
-1 - resnet18
+1 - resnet18\n
 2 - resnet34
 3 - resnet50
 4 - resnet101
