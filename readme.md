@@ -34,4 +34,4 @@ arg - номера моделей через запятую
 predict.py arg - запуск предсказания
 
 
-https://colab.research.google.com/drive/1jDd6D0fvfcJ128uCqG2OVHUfJMFjuN6z?usp=sharing - инференс
+https://colab.research.google.com/drive/1jDd6D0fvfcJ128uCqG2OVHUfJMFjuN6z?usp=sharing - инференс (веса best.pt - resnet152)
