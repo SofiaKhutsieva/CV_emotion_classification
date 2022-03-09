@@ -6,10 +6,9 @@ import copy
 import tensorflow as tf
 import numpy as np
 
-from datetime import datetime
 from tqdm import tqdm
 from torch.optim import lr_scheduler
-from torchvision import datasets, models, transforms
+from torchvision import models
 from build_features import build_features
 
 

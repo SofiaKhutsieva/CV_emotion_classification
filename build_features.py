@@ -1,7 +1,7 @@
 import torch
 import os
 
-from torchvision import datasets, models, transforms
+from torchvision import datasets, transforms
 from PIL import Image
 
 

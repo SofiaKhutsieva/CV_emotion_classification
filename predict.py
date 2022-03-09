@@ -5,7 +5,6 @@ import numpy as np
 import pandas as pd
 
 from build_features import build_features_predict
-from datetime import datetime
 
 directory = './data/test'
 model_dir = './result/resnet152_2022_02_24-18_36/checkpoints/epoch_13.pt' #
