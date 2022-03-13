@@ -65,7 +65,7 @@ for num_mod in num_mods:
              "optim": 'sgd',
              "learning_rate": learning_rate,
              "momentum": momentum,
-             "augm": 'RandomResizedCrop, RandomAutocontrast'
+             "augm": 'RandomResizedCrop, RandomHorizontalFlip, ColorJitter, RandomAutocontrast'
             }
         )
 
