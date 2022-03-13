@@ -14,10 +14,10 @@ def build_features(data_dir, batch_size):
     data_transforms = {
         'train': transforms.Compose([
             transforms.RandomResizedCrop(224),
-            transforms.RandomHorizontalFlip(), #отображение, ось - вертикаль
+            # transforms.RandomHorizontalFlip(), #отображение, ось - вертикаль
             # transforms.RandomRotation(degrees=(0, 180)), # повороты
             # transforms.ColorJitter(brightness=.5, hue=.3), # яркость, цвет
-            # transforms.RandomAutocontrast(), #контрастность
+            transforms.RandomAutocontrast(), #контрастность
             transforms.ToTensor(),
             transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
         ]),

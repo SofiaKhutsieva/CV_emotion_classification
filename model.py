@@ -85,9 +85,6 @@ def train_model(model, criterion, optimizer, scheduler, num_epochs, data_dir, ba
             torch.save(model, f'{output_dir}/checkpoints/epoch_{epoch}.pt')
 
 
-            # # log the best val accuracy to AML run
-            # run.log('best_val_acc', np.float(best_acc))
-
         print()
 
     time_elapsed = time.time() - since

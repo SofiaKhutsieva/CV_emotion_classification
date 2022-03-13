@@ -12,7 +12,7 @@ def inference_image(images_dir, model_dir):
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     # device = 'cpu'
     print(f'device {device}')
-    model = torch.load(model_dir)
+    model = torch.load(model_dir) # map_location='cpu'
     model.to(device)
 
     inference_times = []
