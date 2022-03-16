@@ -19,7 +19,7 @@ def train_model(model, criterion, optimizer, scheduler, num_epochs, data_dir, ba
     dataloaders, dataset_sizes, class_names = build_features(data_dir, batch_size)
 
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-
+    model = model.to(device)
     since = time.time()
 
     best_model_wts = copy.deepcopy(model.state_dict())

@@ -7,7 +7,7 @@ import pandas as pd
 from build_features import build_features_predict
 
 directory = './data/test'
-model_dir = './result/resnet18_2022_02_23-23_47/checkpoints/epoch_13.pt' #
+model_dir = './result/resnet50_2022_03_15-13_40/checkpoints/epoch_19.pt' #
 df_dir = f'./result/{model_dir.split("/")[-3]}/submission_file/{model_dir.split("/")[-3]}_{model_dir.split("/")[-1][:-3]}.csv'
 
 emotions, image_paths = [], []
