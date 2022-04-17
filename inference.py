@@ -30,6 +30,6 @@ def inference_image(images_dir, model_dir):
 
 images_dir = ['./data/test/1.jpg', './data/test/2.jpg', './data/test/3.jpg', './data/test/4.jpg', './data/test/5.jpg',
               './data/test/6.jpg', './data/test/7.jpg', './data/test/8.jpg', './data/test/9.jpg', './data/test/10.jpg']
-model_dir = './result/resnet152_2022_02_24-18_36/checkpoints/epoch_13.pt' #
+model_dir = './result/resnet50_2022_03_15-13_31/checkpoints/best.pt' # './result/resnet152_2022_02_24-18_36/checkpoints/epoch_13.pt' #
 
 inference_image(images_dir, model_dir)
