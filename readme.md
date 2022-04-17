@@ -38,6 +38,10 @@ inference.py - инференс модели
 
 https://colab.research.google.com/drive/1jDd6D0fvfcJ128uCqG2OVHUfJMFjuN6z?usp=sharing - инференс модели
 
+'./result/resnet50_2022_03_15-13_31/checkpoints/best.pt' - лучшие веса на паблик скор (best_public.pt)
+
+'./result/resnet152_2022_02_24-18_36/checkpoints/best.pt'  - лучшие веса на прайват скор (best_private.pt)
+
 ## 2. Работающий прототип с веб камерой (детектирование лица + классификация эмоции)
 
 camera.ipynb
