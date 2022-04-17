@@ -33,10 +33,10 @@ arg - номера моделей через запятую
 
 
 predict.py - предсказания на тесте + формирование файла csv
+
 inference.py - инференс модели
 
-
-https://colab.research.google.com/drive/1jDd6D0fvfcJ128uCqG2OVHUfJMFjuN6z?usp=sharing - инференс (веса best.pt - resnet152)
+https://colab.research.google.com/drive/1jDd6D0fvfcJ128uCqG2OVHUfJMFjuN6z?usp=sharing - инференс модели
 
 ## 2. Работающий прототип с веб камерой (детектирование лица + классификация эмоции)
 
