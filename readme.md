@@ -38,6 +38,20 @@ Cоздать работающий прототип по детектирова�
 
 ## **Результат**
 
+**сравнение моделей классификации:**
+
+![image](https://github.com/SofiaKhutsieva/CV_emotion_classification/assets/73535658/e0e7c421-e048-472d-b300-cb747d9ebc90)
+
+**сравнение аугементаций:**
+
+![image](https://github.com/SofiaKhutsieva/CV_emotion_classification/assets/73535658/90808a1e-f1a5-4e91-9227-2faea5462444)
+
+**детектор + классификатор:**
+
+![image](https://github.com/SofiaKhutsieva/CV_emotion_classification/assets/73535658/4bc16893-7cb4-4029-b645-5ca2539daeb7)
+
+**итог:**
+
 ![image](https://github.com/SofiaKhutsieva/CV_emotion_classification/assets/73535658/45ce6325-5abd-42d3-8516-5cf6f3529fbd)
 
 подробные результаты см. презентацию - https://github.com/SofiaKhutsieva/CV_emotion_classification/blob/main/%D0%BF%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F_%D1%85%D1%83%D1%86%D0%B8%D0%B5%D0%B2%D0%B0_%D1%81%D0%BE%D1%84%D0%B8%D1%8F.pptx
